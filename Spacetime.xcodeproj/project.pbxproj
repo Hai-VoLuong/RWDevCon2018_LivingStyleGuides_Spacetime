@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		043EAEDD20F7AB5F003FEB77 /* SpacetimeColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043EAEDC20F7AB5F003FEB77 /* SpacetimeColors.swift */; };
+		043EAEDE20F7B09C003FEB77 /* UIColor+RGB.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB64C364200692E900C97298 /* UIColor+RGB.swift */; };
+		047B9DEA20F9003000802948 /* SpacetimeFonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B4DF12D20026BE5003EF9E0 /* SpacetimeFonts.swift */; };
 		9B0D345C1F9D242E002706E7 /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0D345B1F9D242E002706E7 /* ImageLoader.swift */; };
 		9B0D345E1F9D2588002706E7 /* LocalImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0D345D1F9D2588002706E7 /* LocalImageCache.swift */; };
 		9B102A3E1FA084D600F16D01 /* LaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B102A3D1FA084D600F16D01 /* LaunchViewController.swift */; };
@@ -36,7 +39,6 @@
 		9B4DF12220025BD4003EF9E0 /* SpaceXStage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B4DF12120025BD4003EF9E0 /* SpaceXStage.swift */; };
 		9B4DF12420025C7D003EF9E0 /* SpaceXCoreInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B4DF12320025C7D003EF9E0 /* SpaceXCoreInfo.swift */; };
 		9B4DF126200262EE003EF9E0 /* SpaceXPayload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B4DF125200262EE003EF9E0 /* SpaceXPayload.swift */; };
-		9B4DF12E20026BE5003EF9E0 /* UIFont+Spacetime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B4DF12D20026BE5003EF9E0 /* UIFont+Spacetime.swift */; };
 		9B563AB01FC57ADE0021034E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B563AAE1FC57ADE0021034E /* LaunchScreen.xib */; };
 		9B5AD5352026F1D9001F3156 /* nasa.json in Resources */ = {isa = PBXBuildFile; fileRef = 9B5AD5332026F1D9001F3156 /* nasa.json */; };
 		9B5AD5362026F1D9001F3156 /* spacex.json in Resources */ = {isa = PBXBuildFile; fileRef = 9B5AD5342026F1D9001F3156 /* spacex.json */; };
@@ -45,7 +47,6 @@
 		9BD7D02A1F9CDFC400FC5C8D /* LaunchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD7D0291F9CDFC400FC5C8D /* LaunchCell.swift */; };
 		9BF693451F9CFC21009C8B14 /* APIEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF693441F9CFC21009C8B14 /* APIEndpoint.swift */; };
 		9BF693471F9CFEC6009C8B14 /* SpaceXDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF693461F9CFEC6009C8B14 /* SpaceXDecoder.swift */; };
-		FB64C365200692E900C97298 /* UIColor+RGB.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB64C364200692E900C97298 /* UIColor+RGB.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,6 +81,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		043EAEDC20F7AB5F003FEB77 /* SpacetimeColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpacetimeColors.swift; sourceTree = "<group>"; };
 		9B0D345B1F9D242E002706E7 /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
 		9B0D345D1F9D2588002706E7 /* LocalImageCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalImageCache.swift; sourceTree = "<group>"; };
 		9B102A3D1FA084D600F16D01 /* LaunchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchViewController.swift; sourceTree = "<group>"; };
@@ -113,7 +115,7 @@
 		9B4DF12120025BD4003EF9E0 /* SpaceXStage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceXStage.swift; sourceTree = "<group>"; };
 		9B4DF12320025C7D003EF9E0 /* SpaceXCoreInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceXCoreInfo.swift; sourceTree = "<group>"; };
 		9B4DF125200262EE003EF9E0 /* SpaceXPayload.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceXPayload.swift; sourceTree = "<group>"; };
-		9B4DF12D20026BE5003EF9E0 /* UIFont+Spacetime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+Spacetime.swift"; sourceTree = "<group>"; };
+		9B4DF12D20026BE5003EF9E0 /* SpacetimeFonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpacetimeFonts.swift; sourceTree = "<group>"; };
 		9B563AAF1FC57ADE0021034E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		9B5AD5332026F1D9001F3156 /* nasa.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = nasa.json; sourceTree = "<group>"; };
 		9B5AD5342026F1D9001F3156 /* spacex.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = spacex.json; sourceTree = "<group>"; };
@@ -254,8 +256,6 @@
 			isa = PBXGroup;
 			children = (
 				9B497DC31FA0F6850017BEE4 /* UILabel+Success.swift */,
-				9B4DF12D20026BE5003EF9E0 /* UIFont+Spacetime.swift */,
-				FB64C364200692E900C97298 /* UIColor+RGB.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -265,6 +265,9 @@
 			children = (
 				9B4DF10D20024DEF003EF9E0 /* SpacetimeUI.h */,
 				9B4DF10E20024DEF003EF9E0 /* Info.plist */,
+				043EAEDC20F7AB5F003FEB77 /* SpacetimeColors.swift */,
+				FB64C364200692E900C97298 /* UIColor+RGB.swift */,
+				9B4DF12D20026BE5003EF9E0 /* SpacetimeFonts.swift */,
 			);
 			path = SpacetimeUI;
 			sourceTree = "<group>";
@@ -457,7 +460,6 @@
 				9BF693451F9CFC21009C8B14 /* APIEndpoint.swift in Sources */,
 				9B0D345C1F9D242E002706E7 /* ImageLoader.swift in Sources */,
 				9BF693471F9CFEC6009C8B14 /* SpaceXDecoder.swift in Sources */,
-				9B4DF12E20026BE5003EF9E0 /* UIFont+Spacetime.swift in Sources */,
 				9B3313F61F9CACF3004D452B /* SpaceXViewController.swift in Sources */,
 				9B3314381F9CB438004D452B /* SpaceXLaunchSite.swift in Sources */,
 				9B4DF126200262EE003EF9E0 /* SpaceXPayload.swift in Sources */,
@@ -465,7 +467,6 @@
 				9B33143D1F9CB872004D452B /* UserVisibleString.swift in Sources */,
 				9B0D345E1F9D2588002706E7 /* LocalImageCache.swift in Sources */,
 				9B4DF12220025BD4003EF9E0 /* SpaceXStage.swift in Sources */,
-				FB64C365200692E900C97298 /* UIColor+RGB.swift in Sources */,
 				9B3314361F9CB400004D452B /* SpaceXRocket.swift in Sources */,
 				9B3314301F9CB2CA004D452B /* SpaceXAPIController.swift in Sources */,
 				9B3314451F9CCF51004D452B /* NASADecoder.swift in Sources */,
@@ -498,6 +499,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				043EAEDD20F7AB5F003FEB77 /* SpacetimeColors.swift in Sources */,
+				047B9DEA20F9003000802948 /* SpacetimeFonts.swift in Sources */,
+				043EAEDE20F7B09C003FEB77 /* UIColor+RGB.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -650,6 +654,7 @@
 		9B3314191F9CACF3004D452B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Spacetime/Info.plist;
@@ -664,6 +669,7 @@
 		9B33141A1F9CACF3004D452B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Spacetime/Info.plist;
