@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import SpacetimeUI
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -18,16 +19,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
   }
   
   private func setupAppearanceProxies() {
-    let blue = UIColor.spc_from(r: 9, g: 51, b: 119)
-    UITabBar.appearance().tintColor = blue
+    UITabBar.appearance().tintColor = SpacetimeColors.tabBarContent.color
     UITabBarItem.appearance().setTitleTextAttributes([
       .font: UIFont.spc_standard(size: 10),
       ], for: .normal)
     
-    UINavigationBar.appearance().barTintColor = blue
+    UINavigationBar.appearance().barTintColor = SpacetimeColors.navigationBarBackground.color
     UINavigationBar.appearance().titleTextAttributes = [
       .foregroundColor: UIColor.white,
-      .font: UIFont.spc_bold(size: 17),
+      .font: SpacetimeFont.bold.of(size: .normal)
     ]
     
     UIBarButtonItem.appearance().tintColor = .white
