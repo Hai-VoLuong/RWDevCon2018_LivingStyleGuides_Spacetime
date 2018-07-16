@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		041E10EF20FCDDD200C05499 /* SpacetimeLabels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041E10EE20FCDDD200C05499 /* SpacetimeLabels.swift */; };
 		043EAEDD20F7AB5F003FEB77 /* SpacetimeColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043EAEDC20F7AB5F003FEB77 /* SpacetimeColors.swift */; };
 		043EAEDE20F7B09C003FEB77 /* UIColor+RGB.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB64C364200692E900C97298 /* UIColor+RGB.swift */; };
 		047B9DEA20F9003000802948 /* SpacetimeFonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B4DF12D20026BE5003EF9E0 /* SpacetimeFonts.swift */; };
@@ -81,6 +82,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		041E10EE20FCDDD200C05499 /* SpacetimeLabels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpacetimeLabels.swift; sourceTree = "<group>"; };
 		043EAEDC20F7AB5F003FEB77 /* SpacetimeColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpacetimeColors.swift; sourceTree = "<group>"; };
 		9B0D345B1F9D242E002706E7 /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
 		9B0D345D1F9D2588002706E7 /* LocalImageCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalImageCache.swift; sourceTree = "<group>"; };
@@ -265,9 +267,10 @@
 			children = (
 				9B4DF10D20024DEF003EF9E0 /* SpacetimeUI.h */,
 				9B4DF10E20024DEF003EF9E0 /* Info.plist */,
-				043EAEDC20F7AB5F003FEB77 /* SpacetimeColors.swift */,
 				FB64C364200692E900C97298 /* UIColor+RGB.swift */,
+				043EAEDC20F7AB5F003FEB77 /* SpacetimeColors.swift */,
 				9B4DF12D20026BE5003EF9E0 /* SpacetimeFonts.swift */,
+				041E10EE20FCDDD200C05499 /* SpacetimeLabels.swift */,
 			);
 			path = SpacetimeUI;
 			sourceTree = "<group>";
@@ -501,6 +504,7 @@
 			files = (
 				043EAEDD20F7AB5F003FEB77 /* SpacetimeColors.swift in Sources */,
 				047B9DEA20F9003000802948 /* SpacetimeFonts.swift in Sources */,
+				041E10EF20FCDDD200C05499 /* SpacetimeLabels.swift in Sources */,
 				043EAEDE20F7B09C003FEB77 /* UIColor+RGB.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
