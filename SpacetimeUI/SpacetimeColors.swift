@@ -9,20 +9,19 @@
 import UIKit
 
 public enum SpacetimeColors {
-    case
-    navigationBarBackground,
-    navigationBarContent,
-    tabBarContent,
-    success,
-    failure,
-    defaultText,
-    buttonBackground,
-    buttonText
+    
+    case navigationBarBackground
+    case navigationBarContent
+    case tabBarContent
+    case success
+    case failure
+    case defaultText
+    case buttonBackground
+    case buttonText
     
     public var color: UIColor {
         switch self {
-            case .navigationBarBackground,
-                 .tabBarContent:
+            case .navigationBarBackground, .tabBarContent:
             return UIColor.spc_from(r: 9, g: 51, b: 119)
         default:
             return .orange
