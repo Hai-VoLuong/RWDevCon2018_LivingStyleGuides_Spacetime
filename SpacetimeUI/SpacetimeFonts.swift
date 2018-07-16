@@ -27,36 +27,33 @@ extension UIFont {
   }
 }
 
+// UIFont.spc_standard(size: 17)
+// SpacetimeFont.bold.of(size: .normal)
+
 public enum SpacetimeFont {
-    case
-    standard,
-    condensed,
-    bold,
-    condensedBold
+    case standard
+    case condensed
+    case bold
+    case condensedBold
     
     public func of(size: SpacetimeFontSize) -> UIFont {
         switch self {
-        case .bold:
-            return UIFont(name: "Futura-Bold", size: size.value)!
-        default:
-            return UIFont(name: "Chalkduster", size: size.value)!
+        case .bold: return UIFont(name: "Futura-Bold", size: size.value)!
+        default: return UIFont(name: "Chalkduster", size: size.value)!
         }
     }
 }
 
 public enum SpacetimeFontSize {
-    case
-    tiny,
-    medium,
-    normal
+    case tiny
+    case medium
+    case normal
     
     var value: CGFloat {
         switch self {
-        case .tiny:
-            return 10
-        case .medium:
-            return 16
-        case .normal:
-            return 17
-        } }
+        case .tiny: return 10
+        case .medium: return 16
+        case .normal: return 17
+        }
+    }
 }
