@@ -21,8 +21,10 @@ public enum SpacetimeColors {
     
     public var color: UIColor {
         switch self {
-            case .navigationBarBackground, .tabBarContent:
+        case .navigationBarBackground, .tabBarContent:
             return UIColor.spc_from(r: 9, g: 51, b: 119)
+        case .defaultText:
+            return .darkText
         default:
             return .orange
         }
